@@ -40,7 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'allauth',
     'allauth.account',
-    'allauth.socialaccount'
+    'allauth.socialaccount',
 ]
 
 MIDDLEWARE = [
@@ -72,6 +72,7 @@ TEMPLATES = [
 ]
 
 AUTHENTICATION_BACKENDS = [
+
 
     # Needed to login by username in Django admin, regardless of `allauth`
     'django.contrib.auth.backends.ModelBackend',
